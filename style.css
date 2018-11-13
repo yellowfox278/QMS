@@ -1,0 +1,262 @@
+body{
+	background-color: #F8F8FF;
+	}
+	.container{
+		width: 1000px;
+		margin: 0 auto;
+	}
+		
+*{margin: 0px; padding: 0px; }
+#main{
+	background: url(Image/MyWebPageHeader.JPG) repeat-x;
+	width: auto;
+	height: auto;
+	box-sizing: border-box;
+	overflow: auto;
+}
+	#header {
+		background: url(Image/Header.JPG) no-repeat;		
+	}
+		/*#logo img{
+			width: 88px;
+			height: 126px;
+			float: left;
+	}nije dobro!*/
+		/*#logo h1{
+			text-indent: -9999px;
+		}
+		#tagline{
+			padding-left: 130px;
+			}*/		
+		#tagline h2{
+			padding-top: 40px;
+			padding-bottom: 35px;
+			font-family: 'Arial Narow',Arial,Helvetica,'Sans serif';
+			font-size: 20pt;
+			color: navy;/*#000080; teget*/
+			text-shadow: 2px 2px 3px gray;
+			text-align: center;	
+		}
+
+		#menu ul li{
+		list-style: none;
+		float: left;
+		padding-bottom: 12px;
+		}
+		#menu li a{
+			font-family: Arial Narow,Arial,Helvetica,Sans serif;
+			padding: 0 20px 0 20px;
+			display: block;
+			font-size: 14pt;
+			font-weight: normal;
+			color: navy;
+			text-decoration: none;
+			text-align: center;
+		}
+		#menu li a:hover:not(active){
+			color: #ff6633;}/*narandžasta*/
+		#menu li a.active{
+			color: white;
+			background-color: #006090;}/*zelenkasta*/
+
+		
+	content{
+		width: 770px;
+		height: auto;
+		float:left;
+		/* overflow: auto; */
+	}
+	/*#content h1{
+		color: #006080;
+		font-size: 24px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-left: 40px;
+	}*/
+	nav, time{
+		font-family: Cambria;
+		font-size: 80%;
+		font-style: italic;
+		color: gray;
+	}
+	nav a:link, a:visited{
+		color: gray;
+	}
+	nav a:hover{
+		color: navy;
+	}	
+	article{
+		padding:10px 30px;
+	}
+	article h1{
+		font-family: Arial, Helvetica, Sans serif;
+		font-size: 20pt;
+		color: #ff6633; /*narandžasto*/
+		text-shadow: 2px 2px 3px gray;
+		padding: 25px 0 20px 0;
+	}		
+	article h2{
+		font-family: Arial, Helvetica, Sans serif;
+		font-size: 18pt;
+		color: #006090; /*zelenkasta tamnija*/
+		padding: 15px 0;
+	}
+	article h3{
+		font-family: Arial, Helvetica, Sans serif;
+		font-size: 16pt;
+		color: #006080; /*zelenkasta svetlija*/
+		padding: 10px 0;
+	}
+	article p{
+		font-family: Georgia,Cambria,Century751 BT;
+		font-size: 13pt;
+		line-height: 130%;
+		color: navy;
+		padding: 5px 0;
+	}
+	article a:link{
+		color: #000080;
+		font-style: default;
+	}
+	article a:hover{
+		color: #ff6633;/*narandžasta*/
+	}
+	article a:visited{
+		color: pourple;
+	}
+	hr{
+		/* color: ff6633; */
+		border-color: #ff6633;
+	}
+	.uvod{
+		width:auto;
+		float:left;
+		background-color: #fff4f1;
+		padding: 20px 0;
+		border-left: 1px solid #ff6633;
+	}
+		#slikaDR{
+			float:left;
+			padding-top: 30px;
+			padding-left: 30px;
+		}
+		#uvodni_tekst{
+			width: 700px;
+			color: navy;
+			font-family: Georgia;
+			font-size: 14pt;
+			font-style: italic;
+			text-align:justify;
+			text-indent: 25px;
+			padding-top: 30px;
+			padding-left: 220px;
+			padding-right: 50px;
+		}
+			#uvodni_tekst p{
+				padding-bottom: 5px;
+				line-height: 18pt;
+			}
+		#potpis{
+			float: right;
+			font-size: 12pt;
+		}
+		.news img{
+			float: left;
+			margin: 10px;
+			width: 200px;
+			max-height: 200px;
+			padding-right: 10px;
+		}
+		.news h2{
+			font-family: Helvetica, 'Sans serif';
+			font-size: 16pt;
+			color: #006080; /*zelenkasta*/
+			padding: 10px 0;
+		}
+		.news h3{
+			font-size: 14pt;
+			color: #006080;
+			padding: 10px;
+		}
+		.news p{
+			font-family: Georgia;
+			font-size: 12pt;
+			line-height: 130%;
+			color: navy;
+			overflow: auto;
+		}
+		.news{
+		padding: 0 15px 40px 0;
+		margin-bottom: 20px;
+		line-height: 1,5em;
+		}
+		.news a{
+			text-decoration: none;
+			color: inherit;
+			}
+		.news a:hover{
+			color: #ff6633; /*narandžasta*/
+			}
+		.news a:visited{
+			color: pourple;
+		}
+	aside{
+		overflow: auto;
+	}
+	.aside{
+		width: 200px;
+		/* border-left: 1px solid #ff6633; */
+		/* border-bottom: 1px solid #ff6633; /*narandžsasta*/
+		box-sizing: border-box;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		padding-left: 15px;
+		overflow: auto;
+		font-family: 'Arial Narrow',Arial,Helvetica,'Sans serif';
+	}
+		.aside h3{
+			font-size: 14pt;
+			color: 	#ff6633; /*narandžasto*/
+			padding-top: 5px;
+		}
+		.aside h4{
+			font-size:12pt;
+			color: #ff6633;
+			padding-top: 5px;
+		}
+		.aside p{
+			font-size: 10pt;
+			color: #003366;
+			padding-top: 0;
+		}
+		.aside small{
+			font-style:italic;
+			font-size: 10px;
+			color: #006080;
+			padding-bottom: 0;
+		}
+		.aside ul li{
+			list-style: none;
+			font-size: 10pt;
+			color: #003366;
+		}
+		.aside a:link{
+			text-decoration: none;
+			color: #003366;
+		}
+		.aside a:hover{color: #ff6633;}
+		.aside a:visited{color: #993399;}
+			
+		
+	#footer{
+		background: url(Image/MyWebPageFooter.JPG) repeat-x;
+		padding-top: 20px;
+		padding-bottom:20px;
+		/*margin-top: 40px;
+		margin:0 auto;*/
+		position: auto;
+		bottom: 0;
+		color: #fff;
+		font-size: 10px;
+		width: 100%		
+	}

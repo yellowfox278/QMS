@@ -8,3 +8,7 @@ Kako se bavim upravljanjem kvalitetom i implementacijom sistema internih kontrol
 Sajt treba da sadrži svu dokumentaciju sistema upravljanja kvalitetom i sistema finansijskog upravljanja i kontrole, tako predstavljenu da svima bude pristupačno i jednostavno za korišćenje.
 Takođe, želim da napravim blog na sajtu, gde ću da objavljujem tekstove i to treba da bude edukativni deo sajta.
 Jednom rečju, želim da ih **namamim** da koriste dokumentaciju i učestvuju u izradi.
+
+-----
+### Posle dve godine
+Napravila sam sajt i postavila ga na server u firmi. To je jedna velika html prezentacija. Ispalop nje prilično dobro.
